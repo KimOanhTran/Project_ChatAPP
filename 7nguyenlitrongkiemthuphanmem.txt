@@ -1,0 +1,33 @@
+7 Testing Principles( nguyenli)
+-Testing shows presence(hiện diện) of defects
+
+-Exhaustive testing is impossible(Thử nghiệm toàn diện là không thể)
++Testing everything is not feasible except for trivial cases, instead of exhaustive testing, we use risks and priorites(ưu tiên) to focus testing efforts(nỗ lực)
+?How to determine risk:
+	+what to test first
+	+what to test most
+	+how thoroughly to test each item
+	+what not to test(this time)
+	+allocate the time available for testing by prioritizing testing
+
+	
+-Early testing
++testing activities should start as early as possible in the software or system development lifi cycle and should be focused on defined objectives
++finds defects early on when they are cheap to find and fix
+
+
+-Defect clustering(phân cụm)
++A small number of modules contain most of the defect discovered during pre-release testing or show the most operational failure
+
+
+
+-Pesticide paradox(Nghịch lý thuốc trừ sâu)
++the test cases need to be regularly reviewed and revised, and new and different tests need to be written
+
+
+-Testing is context dependent(phụ thuộc vào ngữ cảnh)
++testing is done differently in different contexts. 
+
+
+-Absence-of-errors fallacy(Ngụy biện không có lỗi)
++finding and fixing defects does not help if the system built is unusable and does not fulfill the user's needs and expectations
